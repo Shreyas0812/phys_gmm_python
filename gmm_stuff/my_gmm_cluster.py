@@ -1,5 +1,5 @@
 import numpy as np
-from gmm_stuff.my_gaussPDF import my_gaussPDF
+from sbamp.ds_opt_py.phys_gmm_python.gmm_stuff.my_gaussPDF import my_gaussPDF
 """
 %MY_GMM_CLUSTER Computes the cluster labels for the data points given the GMM
 %

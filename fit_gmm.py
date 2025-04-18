@@ -1,14 +1,14 @@
 import numpy as np
-from utils import computePairwiseDistance
-from utils.plotting import plotSimilarityConfMatrix
-from Structs import Options, Lambd
-from dd_crp.run_ddCRP_sampler import run_ddCRP_sampler
-from gmm_stuff.my_gmm_cluster import my_gmm_cluster
+from sbamp.ds_opt_py.phys_gmm_python.utils import computePairwiseDistance
+from sbamp.ds_opt_py.phys_gmm_python.utils.plotting import plotSimilarityConfMatrix
+from sbamp.ds_opt_py.phys_gmm_python.Structs import Options, Lambd
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.run_ddCRP_sampler import run_ddCRP_sampler
+from sbamp.ds_opt_py.phys_gmm_python.gmm_stuff.my_gmm_cluster import my_gmm_cluster
 from gmr import GMM
-from utils.plotting.simple_classification_check import plot_result
-from utils.plotting.plot_ellopsoid import plot_result_3D
-from utils.linalg.my_pca import my_pca
-from utils.adjust_Covariances import adjust_Covariances
+from sbamp.ds_opt_py.phys_gmm_python.utils.plotting.simple_classification_check import plot_result
+from sbamp.ds_opt_py.phys_gmm_python.utils.plotting.plot_ellopsoid import plot_result_3D
+from sbamp.ds_opt_py.phys_gmm_python.utils.linalg.my_pca import my_pca
+from sbamp.ds_opt_py.phys_gmm_python.utils.adjust_Covariances import adjust_Covariances
 
 
 def fig_gmm(Xi_ref, Xi_dot_ref, est_options):

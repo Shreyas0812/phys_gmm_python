@@ -1,5 +1,5 @@
 import numpy as np
-from Structs import New_lambdas
+from sbamp.ds_opt_py.phys_gmm_python.Structs import New_lambdas
 
 
 def compute_lambdasN(Y, Z_C, Lambda, type):

@@ -1,6 +1,6 @@
 import numpy as np
-from dd_crp.sample.compute_lambdasN import compute_lambdasN
-from Structs import Thetas
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.sample.compute_lambdasN import compute_lambdasN
+from sbamp.ds_opt_py.phys_gmm_python.Structs import Thetas
 from scipy.stats import invwishart
 
 

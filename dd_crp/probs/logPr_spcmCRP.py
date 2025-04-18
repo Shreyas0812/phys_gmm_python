@@ -1,5 +1,5 @@
 import numpy as np
-from dd_crp.probs.table_logLik import table_logLik
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.probs.table_logLik import table_logLik
 
 
 def logPr_spcmCRP(Y, delta, Psi):

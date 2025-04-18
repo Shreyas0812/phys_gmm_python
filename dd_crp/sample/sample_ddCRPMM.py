@@ -1,7 +1,7 @@
 import numpy as np
-from dd_crp.helper.get_Connections import get_Connections
-from dd_crp.probs.table_logLik import table_logLik
-from utils.linalg.my_minmax import my_minmax
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.helper.get_Connections import get_Connections
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.probs.table_logLik import table_logLik
+from sbamp.ds_opt_py.phys_gmm_python.utils.linalg.my_minmax import my_minmax
 
 # Y is Xi_ref(2x385), S is similarity matrix
 # This is algorithm 1 of the Paper (Page 14)

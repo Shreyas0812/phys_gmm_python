@@ -1,10 +1,10 @@
 import numpy as np
-from Structs import Lambd, Options, Psi_Stats, Psis
-from dd_crp.helper.extract_TableIds import extract_TableIds
-from dd_crp.probs.table_logLik import table_logLik
-from dd_crp.sample.sample_ddCRPMM import sample_ddCRPMM
-from dd_crp.probs.logPr_spcmCRP import logPr_spcmCRP
-from dd_crp.sample.sample_TableParams import sample_TableParams
+from sbamp.ds_opt_py.phys_gmm_python.Structs import Lambd, Options, Psi_Stats, Psis
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.helper.extract_TableIds import extract_TableIds
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.probs.table_logLik import table_logLik
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.sample.sample_ddCRPMM import sample_ddCRPMM
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.probs.logPr_spcmCRP import logPr_spcmCRP
+from sbamp.ds_opt_py.phys_gmm_python.dd_crp.sample.sample_TableParams import sample_TableParams
 from scipy.io import loadmat
 """
  Distance Dependent Chinese Restaurant Process Mixture Model.

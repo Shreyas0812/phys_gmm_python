@@ -163,7 +163,7 @@ def fig_gmm(Xi_ref, Xi_dot_ref, est_options):
             plot_result_3D(Mu, Sigma, Xi_ref)
             dummy = 1
 
-        return GMM(len(Priors), Priors, Mu.T, Sigma)
+        return Priors, Mu, Sigma
 
 
 
